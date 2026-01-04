@@ -1,0 +1,7 @@
+# Run all tests
+mvn clean test -DtestNmaes_login=ALL -DtestNmaes_pim=ALL -DtestNmaes_leave=ALL -Durl="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+
+# Run single test
+mvn clean test -DtestNmaes_login=TC_LOG_001_validLogin -Durl="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+
+# View results in database

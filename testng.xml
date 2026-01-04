@@ -1,0 +1,26 @@
+<suite name="AutomationSuite">
+
+    <listeners>
+        <listener class-name="reporting.ExtentTestNGITestListener"/>
+        <!-- <listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener"/> -->
+    </listeners>
+
+    <test name="LoginSuite">
+        <classes>
+            <class name="test.LoginTests"/>
+        </classes>
+    </test>
+
+    <test name="PIMSuite">
+        <classes>
+            <class name="test.PIMTests"/>
+        </classes>
+    </test>
+
+    <test name="LeaveSuite">
+        <classes>
+            <class name="test.LeaveTests"/>
+        </classes>
+    </test>
+
+</suite>
